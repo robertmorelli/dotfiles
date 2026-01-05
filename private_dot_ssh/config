@@ -1,0 +1,23 @@
+Host granite.chpc.utah.edu
+  HostName granite.chpc.utah.edu
+  User u1256866
+
+Host kingspeak.chpc.utah.edu
+  HostName kingspeak.chpc.utah.edu
+  User u1256866
+
+Host lab1-30.eng.utah.edu
+  HostName lab1-30.eng.utah.edu
+  User u1256866
+
+Host lab1-3.eng.utah.edu
+  HostName lab1-3.eng.utah.edu
+  User u1256866
+
+Host lab1-31.eng.utah.edu
+  HostName lab1-31.eng.utah.edu
+  User u1256866
+
+Host robert-work-laptop.local
+  HostName robert-work-laptop.local
+  ForwardAgent yes

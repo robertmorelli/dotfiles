@@ -1,0 +1,141 @@
+theme = "gleam"
+
+[editor]
+auto-pairs = false
+
+
+[keys.normal]
+esc = "insert_mode"
+space = "insert_mode"
+
+# different
+Cmd-left  = "goto_line_start"
+Cmd-right = "goto_line_end_newline"
+
+# same everywhere
+Cmd-p = "normal_mode"
+Cmd-c = ":clipboard-yank"
+Cmd-v = ":clipboard-paste-after"
+Cmd-down = "copy_selection_on_next_line"
+Cmd-s = ":write"
+"Cmd-/" = "toggle_comments"
+Cmd-z = "undo"
+Cmd-S-z = "redo"
+Cmd-w = [":wq", ":q"]
+
+
+[keys.insert]
+# different
+Cmd-left  = "goto_line_start"
+Cmd-right = "goto_line_end_newline"
+
+# same everywhere
+Cmd-p = "normal_mode"
+Cmd-c = ":clipboard-yank"
+Cmd-v = ":clipboard-paste-after"
+Cmd-down = "copy_selection_on_next_line"
+Cmd-s = ":write"
+"Cmd-/" = "toggle_comments"
+Cmd-z = "undo"
+Cmd-S-z = "redo"
+Cmd-w = [":wq", ":q!"]
+
+
+[keys.insert."C-A-minus"]
+# different
+left  = "move_prev_word_start"
+right = ["move_next_word_end", "move_char_right"]
+
+# same everywhere
+p = "normal_mode"
+c = ":clipboard-yank"
+v = ":clipboard-paste-after"
+down = "copy_selection_on_next_line"
+s = ":write"
+"/" = "toggle_comments"
+z = "undo"
+S-z = "redo"
+w = [":wq", ":q!"]
+
+[keys.insert."C-_"]
+# different
+left  = "move_prev_word_start"
+right = ["move_next_word_end", "move_char_right"]
+
+# same everywhere
+p = "normal_mode"
+c = ":clipboard-yank"
+v = ":clipboard-paste-after"
+down = "copy_selection_on_next_line"
+s = ":write"
+"/" = "toggle_comments"
+z = "undo"
+S-z = "redo"
+w = [":wq", ":q!"]
+
+[keys.insert."A-_"]
+# different
+left  = "move_prev_word_start"
+right = ["move_next_word_end", "move_char_right"]
+
+# same everywhere
+p = "normal_mode"
+c = ":clipboard-yank"
+v = ":clipboard-paste-after"
+down = "copy_selection_on_next_line"
+s = ":write"
+"/" = "toggle_comments"
+z = "undo"
+S-z = "redo"
+w = [":wq", ":q!"]
+
+
+[keys.normal."C-A-_"]
+# different
+left  = "move_prev_word_start"
+right = ["move_next_word_end", "move_char_right"]
+
+# same everywhere
+p = "normal_mode"
+c = ":clipboard-yank"
+v = ":clipboard-paste-after"
+down = "copy_selection_on_next_line"
+s = ":write"
+"/" = "toggle_comments"
+z = "undo"
+S-z = "redo"
+w = [":wq", ":q!"]
+
+[keys.normal."C-_"]
+# different
+left  = "move_prev_word_start"
+right = ["move_next_word_end", "move_char_right"]
+
+# same everywhere
+p = "normal_mode"
+c = ":clipboard-yank"
+v = ":clipboard-paste-after"
+down = "copy_selection_on_next_line"
+s = ":write"
+"/" = "toggle_comments"
+z = "undo"
+S-z = "redo"
+w = [":wq", ":q!"]
+
+[keys.normal."A-_"]
+# different
+left  = "move_prev_word_start"
+right = ["move_next_word_end", "move_char_right"]
+
+# same everywhere
+p = "normal_mode"
+c = ":clipboard-yank"
+v = ":clipboard-paste-after"
+down = "copy_selection_on_next_line"
+s = ":write"
+"/" = "toggle_comments"
+z = "undo"
+S-z = "redo"
+w = [":wq", ":q!"]
+
+

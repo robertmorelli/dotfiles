@@ -1,0 +1,2 @@
+export PATH="/opt/homebrew/opt/modular:$PATH"
+. "$HOME/.cargo/env"
