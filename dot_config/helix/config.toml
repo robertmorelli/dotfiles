@@ -83,6 +83,12 @@ C-A-w = [":wa", ":qa"]
 C-w = [":wa", ":qa"]
 A-w = [":wa", ":qa"]
 
+# Meta-q = [":qa!"]
+C-A-q = [":qa!"]
+C-q = [":qa!"]
+A-q = [":qa!"]
+
+
 [keys.normal]
 # different for insert/normal
 esc = "insert_mode"
@@ -90,6 +96,43 @@ ret = "insert_mode"
 space = "insert_mode"
 del = "insert_mode"
 tab = "insert_mode"
+a = "insert_mode"
+b = "insert_mode"
+c = "insert_mode"
+d = "insert_mode"
+e = "insert_mode"
+f = "insert_mode"
+g = "insert_mode"
+h = "insert_mode"
+i = "insert_mode"
+j = "insert_mode"
+k = "insert_mode"
+l = "insert_mode"
+m = "insert_mode"
+n = "insert_mode"
+o = "insert_mode"
+p = "insert_mode"
+q = "insert_mode"
+r = "insert_mode"
+s = "insert_mode"
+t = "insert_mode"
+u = "insert_mode"
+v = "insert_mode"
+w = "insert_mode"
+x = "insert_mode"
+y = "insert_mode"
+z = "insert_mode"
+1 = "insert_mode"
+2 = "insert_mode"
+3 = "insert_mode"
+4 = "insert_mode"
+5 = "insert_mode"
+6 = "insert_mode"
+7 = "insert_mode"
+8 = "insert_mode"
+9 = "insert_mode"
+0 = "insert_mode"
+
 
 # same for all modes
 Meta-r = [":config-reload", ":rl", ":lsp-restart"]
@@ -162,3 +205,9 @@ C-A-right = ["move_next_word_end", "move_char_right"]
 C-A-w = [":wa", ":qa"]
 C-w = [":wa", ":qa"]
 A-w = [":wa", ":qa"]
+
+
+# Meta-q = [":qa!"]
+C-A-q = [":qa!"]
+C-q = [":qa!"]
+A-q = [":qa!"]

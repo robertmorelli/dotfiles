@@ -2,23 +2,25 @@
 
 attribute = "#b181ec"
 
-comment = "#c4c4c4"
+comment = { bg = "#373B4A", fg = "#c4c4c4"  } #"#c4c4c4"
 
 constant = "#b181ec"
-"constant.builtin" = "#fe7ab2"
-"constant.character" = "#c8ffa7"
-"constant.numeric" = "#fdffab"
+"constant.builtin" = { fg = "#fe7ab2" , modifiers = ["italic"] }
+
+"constant.character" = { bg = "#374048", fg = "#C8FFA7"  }  # "#c8ffa7"
+"constant.numeric" = "#fdffab"  # { fg = "#fdffab", bg = "#707362" }
 
 constructor = "#ffaff3"
 
 function = "#9ce7ff"
 
-keyword = "#fe7ab2"
-"keyword.control" = "#ffd596"
-"keyword.control.import" = "#fe7ab2"
-"keyword.operator" = "#ffaff3"
-"keyword.storage" = "#ffd596"
-"keyword.storage.modifier" = "#fe7ab2"
+keyword = { fg = "#fe7ab2" , modifiers = ["italic"] }
+"keyword.control" = { fg = "#ffd596" , modifiers = ["italic"]  }
+"keyword.control.import" = { fg =  "#fe7ab2" , modifiers = ["italic"] }
+"keyword.operator" = { fg =  "#ffaff3" , modifiers = ["italic"]  }
+"keyword.storage" = { fg =  "#ffd596" , modifiers = ["italic"] }
+"keyword.storage.modifier" = { fg =  "#fe7ab2" , modifiers = ["italic"] }
+
 
 label = "#ffaff3"
 
@@ -30,15 +32,16 @@ punctuation = "#ffaff3"
 
 special = "#b181ec"
 
-string = "#c8ffa7"
+string = { bg = "#374048", fg = "#C8FFA7"  } #"#c8ffa7"
 
-tag = "#fe7ab2"
+tag = { fg = "#fe7ab2" , modifiers = ["italic"] }
 
 type = "#ffaff3"
 "type.builtin" = "#ffddfa"
 
 variable = "#ffffff"
-"variable.builtin" = "#fe7ab2"
+"variable.builtin" = {fg = "#fe7ab2" , modifiers = ["italic"] }
+
 
 
 
@@ -67,10 +70,10 @@ variable = "#ffffff"
 "ui.popup" = { bg = "#363b52" }
 "ui.popup.info" = { bg = "#292d3e" }
 
-"ui.selection" = { bg = "#4a5270" }
-"ui.selection.primary" = { bg = "#393f57" }
+"ui.selection" = { fg= "#292d3e", bg = "#9CE7FF" }  # { bg = "#4a5270" }
+"ui.selection.primary" = { fg= "#292d3e", bg = "#9CE7FF"  }  # fg= "#4E455E",  bg = "#AA82AF"  { bg = "#393f57" }
 
-"ui.statusline" = { fg = "#000000", bg = "#fffbe8" }
+"ui.statusline" = { fg = "#000000", bg = "#e8fbfff" } # bg = "#fffbe8" }
 "ui.statusline.active" = { fg = "#fffbe8", bg = "#303030" }
 "ui.statusline.insert" = { bg = "#c8ffa7" }
 "ui.statusline.select" = { bg = "#ffd596" }
